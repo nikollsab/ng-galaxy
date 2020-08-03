@@ -12,7 +12,7 @@ export class WorkshopsComponent implements OnInit {
   constructor(public presenter: WorkshopsPresenter) { }
 
   ngOnInit(): void {
-    // this.presenter.loadWorkshops();
+    this.presenter.loadWorkshops();
   }
 
 }

@@ -12,7 +12,7 @@ export class InstructorCreateView implements OnInit {
   constructor(public presenter: InstructorCreatePresenter) { }
 
   ngOnInit(): void {
-    // this.presenter.loadInstructors();
+    this.presenter.loadInstructors();
   }
 
 }

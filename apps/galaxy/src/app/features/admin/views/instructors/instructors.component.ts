@@ -12,7 +12,7 @@ export class InstructorsComponent implements OnInit {
   constructor(public presenter: InstructorPresenter) { }
 
   ngOnInit(): void {
-    // this.presenter.loadInstructors();
+    this.presenter.loadInstructors();
   }
 
 }
